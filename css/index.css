@@ -1,0 +1,397 @@
+/*Apply the following formatting to the entire body:
+The base font for all text should be Roboto, followed by Helvetica Neue, 
+Helvetica, Arial, and sans-serif. 
+The base font weight for all text should be 300 (which is light).
+The base font for all headings should be Source Sans Pro.
+The base font weight for all headings should be 200 (which is thin).*/
+
+body{
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 600%;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 200%;
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(0,0,0,0)), url(../img/pencil-header-xs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 2em;   
+}
+
+/*
+.container {
+    width: 100%;
+}*/
+
+.tag-line{
+    font-size: 150%;
+    font-weight: 100;
+    max-width: 50%;
+}
+
+.introCharacter {
+    background-color: #E0DEDA;
+    /*text-align: center;*/
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.panda {
+    background-color: #F1F2F5;
+    padding-top: 2em;
+    padding-bottom: 2em;  
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.introPanda{
+    text-align: center;
+}
+
+.introPanda h2{
+    font-size: 300%;    
+}
+
+
+.introPanda p {
+    font-size: 150%;
+    font-weight: 100;
+}
+
+svg {
+    width: 50px;
+    fill: #5A3822;
+    stroke: #5A3822;
+    /*position: relative;
+    left: 50%;*/
+}
+
+
+.ad {
+    background-image: url(../img/colors-background-xs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    width: 100%;
+
+}
+
+.ad p {
+    font-size: 300%;
+    max-width: 50%
+}
+
+footer {
+    background-color: #F1F2F5;
+    border-top-color: #583820;
+    border-top-style: solid;
+    border-top-width: 3px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 80%;
+    width: 100%;
+}
+
+.copyright {
+    padding-top: 1em;
+}
+
+.contact {
+    height: 2em;
+}
+
+/*.bar {
+    height: 3px;
+    color: #583820;
+}*/
+
+/*.topBorder {
+    height: 3px;
+    background-color: #583820;
+    width: 100%;
+}*/
+
+}
+
+/*footer.foot.contact {
+    padding-bottom: 1em;
+    margin-bottom: 10em;
+}*/
+
+
+
+@media(min-width:768px){
+    
+header {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(0,0,0,0)), url(../img/pencil-header-sm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 4em;
+}
+
+.tag-line{
+    font-size: 200%;
+    font-weight: 100;
+    max-width: 50%;
+}
+
+
+.introPanda {
+    text-align: left;
+}
+
+.panda img{
+    float: left;
+    /*padding-right: 30px;
+    /*padding-left: 30px;*/
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    width:100%
+}
+
+.introPanda h2{
+    font-size: 400%;
+}
+
+.introPanda p {
+    font-size: 150%;
+    font-weight: 100;
+}
+
+/*.introPanda{
+    position: relative;
+    margin-left: 250px;
+}*/
+
+
+.ad {
+    background-image: url(../img/colors-background-sm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    /*padding-left: 3em;*/
+    width: 100%;
+}
+
+.ad img {
+    width: 100%;
+}
+
+.ad p {
+    font-size: 400%;
+    max-width: 50%;
+}
+i {
+    fill:blue;
+    stroke:blue;
+    size:2em;
+}
+
+.contact {
+    float: right;
+}
+
+.copyright {
+    /*padding-left: 3em;*/
+
+}
+
+}
+
+
+@media(min-width:992px){
+header {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(0,0,0,0)), url(../img/pencil-header-md.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 4em;
+    /*padding-left: 2em;*/
+    }
+
+.tag-line{
+    font-size: 200%;
+    font-weight: 100;
+    max-width: 50%;
+}
+
+
+.introPanda {
+    text-align: left;
+}
+
+.panda img{
+    float: left;
+    /*padding-right: 30px;
+    padding-left: 30px;*/
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+}
+
+
+.introPanda h2{
+    font-size: 400%;
+}
+
+.introPanda p {
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.ad {
+    background-image: url(../img/colors-background-md.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    /*padding-left: 3em;*/
+    width: 100%;
+}
+
+.ad img {
+    width: 100%;
+}
+
+.ad p{
+    max-width: 50%;
+}
+
+i {
+    fill:blue;
+    stroke:blue;
+    size:2em;
+}
+
+/*.topBorder {
+    height: 3px;
+    background-color: #583820;
+    width: 100%;
+}*/
+.contact {
+    float: right;
+}
+
+
+}
+
+
+
+@media(min-width:1200px){
+header {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(0,0,0,0)), url(../img/pencil-header-lg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 4em;
+    /*padding-left: 2em;*/
+    }
+
+.tag-line{
+    font-size: 200%;
+    font-weight: 100;
+    max-width: 50%;
+}
+
+
+.introCharacter {
+    background-color: #E0DEDA;
+    /*text-align: center;*/
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+
+.introPanda {
+    text-align: left;
+}
+
+.panda img{
+    float: left;
+    /*padding-right: 30px;
+    padding-left: 30px;*/
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+}
+
+.introPanda h2{
+    font-size: 400%;
+}
+
+.introPanda p {
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.ad {
+    background-image: url(../img/colors-background-lg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    /*padding-left: 3em;*/
+    width: 100%;
+}
+
+.ad img {
+    width: 100%;
+    font-size: 400%;
+}
+
+.ad p{
+    max-width: 50%;
+}
+
+
+.contact {
+    float: right;
+
+}
+
+.copyright {
+    /*padding-left: 2em;*/
+}
+
+/*.topBorder {
+    height: 3px;
+    background-color: #583820;
+    width: 100%;
+}*/
+
+}
+/*.topBorder {
+    height: 3px;
+    background-color: #583820;
+    width: 100%;
+}*/
+
+
+
+
+
+
